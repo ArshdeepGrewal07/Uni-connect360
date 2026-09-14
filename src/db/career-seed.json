@@ -1,0 +1,192 @@
+{
+  "tracks": [
+    {
+      "id": "st-fullstack",
+      "title": "Enterprise Full-Stack & Next.js Systems",
+      "category": "Tech & AI",
+      "level": "Intermediate",
+      "estimatedHours": 42,
+      "skills": [
+        "Next.js App Router",
+        "Server Actions",
+        "PostgreSQL / Drizzle",
+        "Tailwind CSS"
+      ],
+      "modules": [
+        "Client & Server Component Hydration Patterns",
+        "Database schema migrations with Drizzle ORM",
+        "JWT Auth & Session Guards",
+        "Edge caching & streaming server rendered responses"
+      ]
+    },
+    {
+      "id": "st-ai-agentic",
+      "title": "Agentic AI & LLM Systems Engineering",
+      "category": "Tech & AI",
+      "level": "Advanced",
+      "estimatedHours": 50,
+      "skills": [
+        "LangChain / LlamaIndex",
+        "Vector Search & RAG",
+        "Model Fine-Tuning",
+        "Python FastAPI"
+      ],
+      "modules": [
+        "Vector Embeddings & Cosine Similarity indexation",
+        "Autonomous Tool Calling & Multi-Agent routing",
+        "Retrieval Augmented Generation evaluation metrics",
+        "Local ONNX and quantized model execution"
+      ]
+    },
+    {
+      "id": "st-product-design",
+      "title": "Mobile UI/UX Systems & Micro-Interactions",
+      "category": "Product & Design",
+      "level": "Beginner",
+      "estimatedHours": 28,
+      "skills": [
+        "Figma Design Systems",
+        "Motion / Framer",
+        "Accessibility WCAG",
+        "Design Hand-off"
+      ],
+      "modules": [
+        "Fluid Typography & Responsive Mobile Canvas grids",
+        "Micro-animations & tactile haptic visual states",
+        "Design system token architecture",
+        "Figma to React Tailwind CSS hand-off"
+      ]
+    },
+    {
+      "id": "st-embedded-iot",
+      "title": "Autonomous Embedded Systems & ROS",
+      "category": "Core Engineering",
+      "level": "Intermediate",
+      "estimatedHours": 36,
+      "skills": [
+        "Embedded C++",
+        "ROS 2",
+        "Raspberry Pi 5",
+        "Sensor Telemetry"
+      ],
+      "modules": [
+        "RTOS basics & interrupt service routines",
+        "CAN & I2C sensor bus communication",
+        "ROS2 node publishers & subscribers",
+        "Motor driver PWM closed-loop PID control"
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "career-opportunity-0",
+      "title": "Front-End Developer Intern",
+      "company": "Campus Innovation Labs · Block 34",
+      "type": "Final Year Internship",
+      "category": "For You",
+      "stipend": "₹18,000 / mo",
+      "requirements": [
+        "React / Next.js",
+        "Tailwind CSS",
+        "Git workflows"
+      ],
+      "description": "Illustrative campus opportunity for testing the application workflow. No external employer is connected."
+    },
+    {
+      "id": "career-opportunity-1",
+      "title": "Interactive Web Game Dev",
+      "company": "Student Tech Hub · Uni-Mall",
+      "type": "Part-time Gig",
+      "category": "For You",
+      "stipend": "₹12,000 / mo",
+      "requirements": [
+        "HTML5 Canvas",
+        "JavaScript",
+        "Animation states"
+      ],
+      "description": "Illustrative campus opportunity for testing the application workflow. No external employer is connected."
+    },
+    {
+      "id": "career-opportunity-2",
+      "title": "AI Perception & Robotics Intern",
+      "company": "Advanced Credit Program · Block 32",
+      "type": "Summer Research",
+      "category": "Freshers",
+      "stipend": "Academic Credits + ₹10,000",
+      "requirements": [
+        "Python",
+        "OpenCV basics",
+        "ROS / Arduino"
+      ],
+      "description": "Illustrative campus opportunity for testing the application workflow. No external employer is connected."
+    }
+  ],
+  "questions": [
+    {
+      "id": "interview-components",
+      "title": "Explain server and client components and when you need interactive client code.",
+      "concepts": [
+        [
+          "server",
+          "render"
+        ],
+        [
+          "bundle",
+          "javascript"
+        ],
+        [
+          "interactive",
+          "event"
+        ],
+        [
+          "security",
+          "secret"
+        ]
+      ]
+    },
+    {
+      "id": "interview-booking",
+      "title": "Two students try to book the same study pod at once. How do you prevent double booking?",
+      "concepts": [
+        [
+          "transaction",
+          "atomic"
+        ],
+        [
+          "unique",
+          "constraint"
+        ],
+        [
+          "conflict",
+          "retry"
+        ],
+        [
+          "test",
+          "concurrent"
+        ]
+      ]
+    },
+    {
+      "id": "interview-teamwork",
+      "title": "Describe a technical challenge you resolved in a team project using Situation, Task, Action and Result.",
+      "concepts": [
+        [
+          "situation",
+          "context"
+        ],
+        [
+          "task",
+          "goal"
+        ],
+        [
+          "action",
+          "implemented"
+        ],
+        [
+          "result",
+          "improved"
+        ]
+      ]
+    }
+  ]
+}

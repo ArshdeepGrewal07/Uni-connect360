@@ -1,0 +1,9 @@
+export type CareerProfile={skills:string[];resume:string;targetRole:string;term:string;cgpa:string;cgpaGoal:string;attendance:string;internshipHours:string;internshipGoal:string;certifications:string;};
+export const emptyCareerProfile:CareerProfile={skills:[],resume:'',targetRole:'',term:'',cgpa:'',cgpaGoal:'',attendance:'',internshipHours:'',internshipGoal:'',certifications:''};
+export type Opportunity={id:string;title:string;company:string;type:string;category:string;stipend:string;requirements:string[];description:string;sample:boolean;ownerId:string|null;closed:boolean;match:number|null;matched:string[];saved:boolean;application:string|null;};
+export type CareerTrack={id:string;title:string;category:string;level:string;estimatedHours:number;skills:string[];modules:string[];completed:number[];version:number;enrolled:boolean;};
+export type InterviewQuestion={id:string;title:string;concepts:string[][]};
+export type Feedback={score:number;matched:string[];missing:string[];note:string};
+export type CareerAttempt={id:string;kind:string;targetId:string;answer:string;feedback:Feedback;createdAt:number};
+export type CareerData={profile:CareerProfile;version:number;opportunities:Opportunity[];tracks:CareerTrack[];questions:InterviewQuestion[];attempts:CareerAttempt[]};
+export type SkillBeacon={id:string;userId:string;kind:string;title:string;description:string;location:string;room:string;reward:string;x:number;y:number;expiresAt:number;createdAt:number;creatorName:string;joined:boolean;members:number;};

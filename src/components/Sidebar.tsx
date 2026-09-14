@@ -1,0 +1,6 @@
+"use client";
+import type {Tab} from '@/app/page';
+import {IconLayers,IconHome,IconBuddies,IconMap,IconChat,IconUsers} from '@/components/icons';
+export function Sidebar({tab,onNavigate,badge}:{tab:Tab;onNavigate:(tab:Tab)=>void;badge:number}){
+ return <aside className="absolute inset-y-0 left-0 z-40 hidden w-20 flex-col items-center gap-5 border-r border-slate-200 bg-white py-6 md:flex"><button title="Quad campus" aria-label="Quad campus" onClick={()=>onNavigate('home')} className="mb-5 rounded-2xl p-3 text-slate-700"><IconLayers size={27}/></button>{([{id:'home',label:'Home',icon:IconHome},{id:'buddies',label:'Buddies',icon:IconBuddies},{id:'campus',label:'Campus',icon:IconMap},{id:'chats',label:'Chats',icon:IconChat},{id:'profile',label:'Profile',icon:IconUsers}] as const).map(item=><button key={item.id} aria-label={item.label} title={item.label} aria-current={tab===item.id?'page':undefined} onClick={()=>onNavigate(item.id)} className={'relative rounded-2xl p-3 transition-colors '+(tab===item.id?'bg-emerald-100 text-emerald-800':'text-slate-400 hover:bg-slate-50 hover:text-slate-700')}><item.icon size={22}/>{item.id==='chats'&&badge>0&&<span className="absolute -right-1 -top-1 rounded-full bg-orange-500 px-1.5 text-[10px] text-white">{badge}</span>}</button>)}</aside>;
+}

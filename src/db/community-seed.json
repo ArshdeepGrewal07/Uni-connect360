@@ -1,0 +1,971 @@
+{
+  "beacons": [
+    {
+      "id": "db-1",
+      "creatorName": "Aarav Mehta",
+      "avatarHue": 18,
+      "course": "B.Tech CSE",
+      "year": 2,
+      "subject": "Robotics & Microcontrollers",
+      "goal": "Looking for a study buddy to debug ROS kinematics for next week's lab exam.",
+      "expiresInMinutes": 45
+    },
+    {
+      "id": "db-2",
+      "creatorName": "Ishita Rao",
+      "avatarHue": 330,
+      "course": "B.Des",
+      "year": 3,
+      "subject": "Creative Frontend & Canvas",
+      "goal": "Need a partner to pair-program an interactive canvas browser game for term project.",
+      "expiresInMinutes": 80
+    },
+    {
+      "id": "db-3",
+      "creatorName": "Meera Pillai",
+      "avatarHue": 262,
+      "course": "B.Tech ECE",
+      "year": 2,
+      "subject": "Signal Processing & DSP",
+      "goal": "Reviewing Fourier transform problem sets at Library 2nd Floor — coffee on me!",
+      "expiresInMinutes": 30
+    }
+  ],
+  "pins": [
+    {
+      "id": "sp-1",
+      "title": "Midnight Chai & Samosa Gathering",
+      "locationName": "Chai Tapri Pavilion",
+      "x": 68,
+      "y": 44,
+      "creatorName": "Kabir",
+      "category": "chai",
+      "expiresAt": "In 35 mins",
+      "attendees": [
+        "Kabir",
+        "Meera",
+        "Anya",
+        "Dev"
+      ]
+    },
+    {
+      "id": "sp-2",
+      "title": "Testing Local Multiplayer LAN Lobby",
+      "locationName": "Innovation Lab (Room 102)",
+      "x": 74,
+      "y": 23,
+      "creatorName": "Rohan",
+      "category": "gaming",
+      "expiresAt": "In 55 mins",
+      "attendees": [
+        "Rohan",
+        "Arjun",
+        "Priya"
+      ]
+    },
+    {
+      "id": "sp-3",
+      "title": "Architecture Studio Critique Group",
+      "locationName": "Block 34 · Room 204",
+      "x": 18,
+      "y": 24,
+      "creatorName": "Ishita",
+      "category": "study",
+      "expiresAt": "In 1h 20m",
+      "attendees": [
+        "Ishita",
+        "Anya",
+        "Advait"
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "pz-1",
+      "name": "Open Amphitheatre Courtyard",
+      "location": "Central Quad Grounds",
+      "capacity": "40+ people",
+      "acoustics": "Open air · Amp power available",
+      "status": "available"
+    },
+    {
+      "id": "pz-2",
+      "name": "Block 34 Design Atrium",
+      "location": "Block 34 Ground Floor",
+      "capacity": "25 dancers",
+      "acoustics": "Full mirror walls · Wood floor",
+      "status": "claimed",
+      "claimedBy": "Urban Groove Dance Crew",
+      "until": "5:30 PM"
+    },
+    {
+      "id": "pz-3",
+      "name": "Music Society Acoustic Pod 1",
+      "location": "Auditorium Wing B",
+      "capacity": "8 musicians",
+      "acoustics": "Soundproof foam · Drum kit & keyboard ready",
+      "status": "open_jam",
+      "claimedBy": "Acoustic Jam Collective",
+      "until": "Open to all students"
+    }
+  ],
+  "games": [
+    {
+      "id": "pg-1",
+      "sport": "badminton",
+      "title": "Doubles Badminton (Racquets Ready)",
+      "court": "Sports Complex Court 2",
+      "neededPlayers": 4,
+      "currentPlayers": [
+        "Dev",
+        "Aarav"
+      ],
+      "startsAt": "In 15 mins",
+      "creatorName": "Dev"
+    },
+    {
+      "id": "pg-2",
+      "sport": "basketball",
+      "title": "3v3 Half-Court Hoop Session",
+      "court": "Main Basketball Quad",
+      "neededPlayers": 6,
+      "currentPlayers": [
+        "Tara",
+        "Sana",
+        "Kabir",
+        "Arjun"
+      ],
+      "startsAt": "Free Court Right Now",
+      "creatorName": "Tara"
+    },
+    {
+      "id": "pg-3",
+      "sport": "chess",
+      "title": "Blitz Chess (5m clock)",
+      "court": "Hostel A Common Lounge",
+      "neededPlayers": 2,
+      "currentPlayers": [
+        "Rohan"
+      ],
+      "startsAt": "Now",
+      "creatorName": "Rohan"
+    }
+  ],
+  "equipment": [
+    {
+      "id": "vi-1",
+      "title": "Yonex Carbonex Badminton Racquet + 3 Shuttles",
+      "category": "sports",
+      "ownerName": "Dev S. (Hostel B, Room 312)",
+      "dormLocation": "Hostel B",
+      "status": "available"
+    },
+    {
+      "id": "vi-2",
+      "title": "English Willow Cricket Bat (Grade 1)",
+      "category": "sports",
+      "ownerName": "Aarav M. (Hostel A, Room 204)",
+      "dormLocation": "Hostel A",
+      "status": "available"
+    },
+    {
+      "id": "vi-3",
+      "title": "Wooden Tournament Chess Set + Timer Clock",
+      "category": "boardgames",
+      "ownerName": "Rohan I. (Hostel A, Room 410)",
+      "dormLocation": "Hostel A",
+      "status": "available"
+    },
+    {
+      "id": "vi-4",
+      "title": "DJI Osmo Mobile 6 Smartphone Gimbal",
+      "category": "tech",
+      "ownerName": "Anya S. (Hostel C)",
+      "dormLocation": "Hostel C",
+      "status": "available"
+    }
+  ],
+  "posts": [
+    {
+      "id": "ephem-1",
+      "author": "Kabir V.",
+      "authorRoom": "Block B - 302",
+      "avatarSeed": 210,
+      "tag": "urgent_borrow",
+      "content": "Does anyone on Floor 3 have an HDMI-to-Type-C dongle for 1 hour? Mid-term demo presentation prep! Can trade cold RedBull.",
+      "createdMinsAgo": 32,
+      "expiresInMinutes": 328,
+      "upvotes": 7,
+      "replyCount": 3,
+      "distanceMetres": 24
+    },
+    {
+      "id": "ephem-2",
+      "author": "Pooja M.",
+      "authorRoom": "Girls Wing - 114",
+      "avatarSeed": 145,
+      "tag": "lost_found",
+      "content": "Left black Boat Airdopes case on table 4 at Central Canteen ~40 mins ago. Has a cat sticker on it. Please Ping if found!",
+      "createdMinsAgo": 45,
+      "expiresInMinutes": 315,
+      "upvotes": 14,
+      "replyCount": 5,
+      "distanceMetres": 110
+    },
+    {
+      "id": "ephem-3",
+      "author": "Rohan & Team",
+      "authorRoom": "Library Common Room",
+      "avatarSeed": 88,
+      "tag": "impromptu_study",
+      "content": "Calculus III cram session kicking off right now at Ground Floor Glass Cubicle 2. We have complete past 5 year question answer sheets.",
+      "createdMinsAgo": 12,
+      "expiresInMinutes": 348,
+      "upvotes": 19,
+      "replyCount": 8,
+      "distanceMetres": 75
+    },
+    {
+      "id": "ephem-4",
+      "author": "Anonymous Cat Enthusiast",
+      "authorRoom": "Block D Quad",
+      "avatarSeed": 40,
+      "tag": "dorm_meme",
+      "content": "The orange campus cat has officially occupied the Dean office doorstep and is demanding biscuits for entry clearance.",
+      "createdMinsAgo": 85,
+      "expiresInMinutes": 275,
+      "upvotes": 42,
+      "replyCount": 11,
+      "distanceMetres": 190
+    }
+  ],
+  "bounties": [
+    {
+      "id": "eb-1",
+      "creatorName": "Dev Sharma",
+      "avatarHue": 96,
+      "dormCluster": "Hostel B → Block 34",
+      "title": "Need 8-page color architectural printout delivered to Room 204 desk before 9:30 AM",
+      "deadline": "Before 9:30 AM",
+      "reward": 40,
+      "status": "open"
+    },
+    {
+      "id": "eb-2",
+      "creatorName": "Aarav Mehta",
+      "avatarHue": 18,
+      "dormCluster": "Hostel A Cluster",
+      "title": "Borrow Casio fx-991EX Scientific Calculator for 2h mid-sem examination slot",
+      "deadline": "By 1:30 PM",
+      "reward": 25,
+      "status": "open"
+    },
+    {
+      "id": "eb-3",
+      "creatorName": "Ishita Rao",
+      "avatarHue": 330,
+      "dormCluster": "Main Campus Gate → Hostel C",
+      "title": "Pick up small Amazon parcel from Main Gate Hub locker on your walk back to hostels",
+      "deadline": "Today before 7 PM",
+      "reward": 35,
+      "status": "open"
+    }
+  ],
+  "barters": [
+    {
+      "id": "sb-1",
+      "creatorName": "Aarav Mehta",
+      "avatarHue": 18,
+      "course": "B.Tech CSE · 2nd Yr",
+      "offering": "Calculus I & Differential Equations (Exam prep)",
+      "seeking": "Beginner Acoustic Guitar Chords & Strumming",
+      "duration": "45 mins",
+      "note": "I have top grades in Engineering Math; struggling with barre chords. Let's trade 45 mins at Library Lawn!"
+    },
+    {
+      "id": "sb-2",
+      "creatorName": "Ishita Rao",
+      "avatarHue": 330,
+      "course": "B.Des · 3rd Yr",
+      "offering": "Figma UI Prototyping & Auto-Layout Masterclass",
+      "seeking": "Blender 3D Asset Modeling & UV Unwrapping",
+      "duration": "60 mins",
+      "note": "Can teach you how to build responsive design systems in exchange for game asset modeling tips."
+    },
+    {
+      "id": "sb-3",
+      "creatorName": "Sana Sheikh",
+      "avatarHue": 44,
+      "course": "B.Sc Psychology · 1st Yr",
+      "offering": "Conversational German & Pronunciation",
+      "seeking": "Python & Data Structures for Beginners",
+      "duration": "45 mins",
+      "note": "Goethe-Zertifikat B2 certified. Want to learn basic Python scripting for psychology research stats."
+    }
+  ],
+  "market": [
+    {
+      "id": "vm-1",
+      "sellerName": "Ishita Rao",
+      "avatarHue": 330,
+      "dormLocation": "Hostel C · Room 214",
+      "title": "A2 Architecture Drafting Board + Parallel Motion T-Scale + Clips",
+      "category": "Academic Gear",
+      "price": 450,
+      "condition": "Like New",
+      "status": "available"
+    },
+    {
+      "id": "vm-2",
+      "sellerName": "Dev Sharma",
+      "avatarHue": 96,
+      "dormLocation": "Hostel B · Room 312",
+      "title": "Omega Engineering Mini Drafter + Unbreakable Drawing Tube",
+      "category": "Academic Gear",
+      "price": 250,
+      "condition": "Good",
+      "status": "available"
+    },
+    {
+      "id": "vm-3",
+      "sellerName": "Rohan Iyer",
+      "avatarHue": 142,
+      "dormLocation": "Hostel A · Room 410",
+      "title": "100% Cotton Chemistry & Workshop Lab Coat (Size L, freshly washed)",
+      "category": "Academic Gear",
+      "price": 120,
+      "condition": "Good",
+      "status": "available"
+    },
+    {
+      "id": "vm-4",
+      "sellerName": "Senior Alum (Graduating)",
+      "avatarHue": 210,
+      "dormLocation": "Hostel A · Room 108",
+      "title": "Haier 42L Compact Dorm Mini-Fridge (Chills drinks & milk perfectly)",
+      "category": "Appliances",
+      "price": 2800,
+      "condition": "Good",
+      "status": "available"
+    }
+  ],
+  "food": [
+    {
+      "id": "ff-1",
+      "vendorName": "Main Canteen",
+      "dishName": "Deluxe Paneer Thali + 3 Butter Rotis",
+      "originalPrice": 95,
+      "discountPrice": 45,
+      "platesLeft": 6,
+      "closingTime": "Closes in 35 mins",
+      "image": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?auto=format&fit=crop&w=400&q=80",
+      "veg": true
+    },
+    {
+      "id": "ff-2",
+      "vendorName": "Momos Corner",
+      "dishName": "Steamed Chicken Momos (8pc batch)",
+      "originalPrice": 70,
+      "discountPrice": 35,
+      "platesLeft": 4,
+      "closingTime": "Closes in 20 mins",
+      "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=400&q=80",
+      "veg": false
+    },
+    {
+      "id": "ff-3",
+      "vendorName": "Green Bowl Cafe",
+      "dishName": "Falafel Hummus Protein Bowl",
+      "originalPrice": 130,
+      "discountPrice": 60,
+      "platesLeft": 3,
+      "closingTime": "Closes in 45 mins",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=400&q=80",
+      "veg": true
+    },
+    {
+      "id": "ff-4",
+      "vendorName": "Chai Tapri",
+      "dishName": "Medu Vada (2pc) + Ginger Chai Combo",
+      "originalPrice": 45,
+      "discountPrice": 20,
+      "platesLeft": 8,
+      "closingTime": "Closes in 50 mins",
+      "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=400&q=80",
+      "veg": true
+    },
+    {
+      "id": "ff-5",
+      "vendorName": "Rolls Mania & Kathi Point",
+      "dishName": "Double Paneer Tikka Kathi Roll",
+      "originalPrice": 85,
+      "discountPrice": 40,
+      "platesLeft": 5,
+      "closingTime": "Closes in 25 mins",
+      "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=400&q=80",
+      "veg": true
+    },
+    {
+      "id": "ff-6",
+      "vendorName": "UniMall Waffle & Cafe",
+      "dishName": "Warm Belgian Dark Chocolate Waffle",
+      "originalPrice": 120,
+      "discountPrice": 55,
+      "platesLeft": 3,
+      "closingTime": "Closes in 40 mins",
+      "image": "https://images.unsplash.com/photo-1562376552-0d160a2f238d?auto=format&fit=crop&w=400&q=80",
+      "veg": true
+    },
+    {
+      "id": "ff-7",
+      "vendorName": "Amritsari Kulcha Dhaba",
+      "dishName": "Chur Chur Aloo Kulcha + Chole Thali",
+      "originalPrice": 90,
+      "discountPrice": 45,
+      "platesLeft": 4,
+      "closingTime": "Closes in 30 mins",
+      "image": "https://images.unsplash.com/photo-1626074353765-517a681e40be?auto=format&fit=crop&w=400&q=80",
+      "veg": true
+    }
+  ],
+  "culture": [
+    {
+      "id": "ce-1",
+      "title": "Battle of the Bands: Acoustic & Rock Face-Off",
+      "genre": "Music",
+      "location": "Shanti Devi Mittal Auditorium",
+      "time": "Tonight at 7:00 PM",
+      "description": "6 college bands competing for the Annual Trophy. Free student entry with ID.",
+      "organizer": "LPU Music Society"
+    },
+    {
+      "id": "ce-2",
+      "title": "Urban Street Play: 'The 8 AM Attendance Paradox'",
+      "genre": "Theatre",
+      "location": "Central Fountain Amphitheatre",
+      "time": "Tomorrow at 4:30 PM",
+      "description": "Satirical street play touching on engineering life, proxy dramas, and hostel curfew.",
+      "organizer": "Dramatics Club"
+    },
+    {
+      "id": "ce-3",
+      "title": "StepUp 2026: Inter-Department Hip-Hop Dance-Off",
+      "genre": "Dance",
+      "location": "Block 34 Open Quad",
+      "time": "Friday at 5:00 PM",
+      "description": "Popping, locking, and freestyle cypher. Guest judge from MTV Dance.",
+      "organizer": "Urban Groove Dance Crew"
+    },
+    {
+      "id": "ce-4",
+      "title": "Starlight Open Mic & Chai Poetry",
+      "genre": "Poetry",
+      "location": "Chai Tapri Pavilion Grass",
+      "time": "Saturday at 8:00 PM",
+      "description": "Bring your original poems, ghazals, or acoustic guitar under the campus lights.",
+      "organizer": "Literary Guild"
+    }
+  ],
+  "flash": [
+    {
+      "id": "fe-1",
+      "title": "⚡ Spontaneous Bollywood Flash Mob!",
+      "location": "Central Quad Water Fountain",
+      "startsIn": "Starting in 8 mins",
+      "attendeesCount": 38,
+      "tags": [
+        "High Energy",
+        "Dancers Welcome"
+      ]
+    },
+    {
+      "id": "fe-2",
+      "title": "🎸 Acoustic Guitar Jamming Circle",
+      "location": "Hostel B Front Lawn",
+      "startsIn": "Happening Right Now",
+      "attendeesCount": 16,
+      "tags": [
+        "Sing-Along",
+        "Chill"
+      ]
+    },
+    {
+      "id": "fe-3",
+      "title": "🎤 Freestyle Rap & Beatbox Cypher",
+      "location": "Behind Block 34 Stairs",
+      "startsIn": "In 20 mins",
+      "attendeesCount": 22,
+      "tags": [
+        "Cypher",
+        "Beatbox"
+      ]
+    }
+  ],
+  "schedules": [
+    {
+      "day": "Thursday",
+      "time": "2:00 PM – 4:00 PM",
+      "friends": [
+        "Ishita",
+        "Dev"
+      ],
+      "recommendation": "Both free for 2 hours · Ideal for cutting chai at Chai Tapri ☕",
+      "id": "schedules-0"
+    },
+    {
+      "day": "Friday",
+      "time": "11:00 AM – 1:00 PM",
+      "friends": [
+        "Aarav",
+        "Rohan"
+      ],
+      "recommendation": "Shared free window · Perfect for gym workout or LeetCode sprint 💻",
+      "id": "schedules-1"
+    },
+    {
+      "day": "Wednesday",
+      "time": "3:30 PM – 5:00 PM",
+      "friends": [
+        "Meera",
+        "Kabir"
+      ],
+      "recommendation": "Free post-lecture slot · Good for Central Library group study 📚",
+      "id": "schedules-2"
+    }
+  ],
+  "lectures": [
+    {
+      "id": "lr-204",
+      "roomName": "Block 34 · Room 204 (Design Studio)",
+      "course": "DES204: Typography & Interaction Design",
+      "activeStudents": 28,
+      "unlocked": true,
+      "notes": [
+        {
+          "author": "Ishita",
+          "text": "Prof uploaded the grid layout Figma file to portal folder 4.",
+          "time": "10m ago"
+        },
+        {
+          "author": "Advait",
+          "text": "Remember term submission printouts due Monday 10 AM.",
+          "time": "25m ago"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Is the 8pt baseline grid mandatory for the mobile screens?",
+          "answers": 3
+        },
+        {
+          "question": "Can we use custom Google fonts or system fonts only?",
+          "answers": 2
+        }
+      ]
+    },
+    {
+      "id": "lr-208",
+      "roomName": "Block 34 · Room 208 (Lecture Theatre)",
+      "course": "CSE302: Distributed Operating Systems",
+      "activeStudents": 45,
+      "unlocked": true,
+      "notes": [
+        {
+          "author": "Rohan",
+          "text": "Mid-sem test will cover Raft consensus and deadlock recovery.",
+          "time": "15m ago"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Difference between Lamport logical clock and vector clock?",
+          "answers": 4
+        }
+      ]
+    },
+    {
+      "id": "lr-102",
+      "roomName": "Innovation Lab · Hardware Workshop",
+      "course": "ECE401: Embedded IoT Systems",
+      "activeStudents": 14,
+      "unlocked": false,
+      "notes": [],
+      "questions": []
+    }
+  ],
+  "projects": [
+    {
+      "id": "pm-1",
+      "title": "Autonomous Obstacle Drone with Edge AI",
+      "target": "HackNight 2026 Bounty (₹2L Pool)",
+      "summary": "Building lightweight drone firmware running YOLO-v8 on Raspberry Pi 5 for warehouse safety.",
+      "neededRoles": [
+        "Embedded C++ / ROS",
+        "PyTorch / Edge Model Optimization"
+      ],
+      "members": [
+        "Aarav",
+        "Dev"
+      ],
+      "slotsOpen": 2
+    },
+    {
+      "id": "pm-2",
+      "title": "Campus P2P Textbook & Notes Exchange DApp",
+      "target": "Web3 Innovation Challenge",
+      "summary": "Smart contract book lending with student NFT verification to prevent stolen library books.",
+      "neededRoles": [
+        "Solidity / Smart Contracts",
+        "Next.js UI Designer"
+      ],
+      "members": [
+        "Rohan",
+        "Priya"
+      ],
+      "slotsOpen": 1
+    },
+    {
+      "id": "pm-3",
+      "title": "NPTEL Deep Learning Exam Study Sprint",
+      "target": "NPTEL Elite Gold Certification",
+      "summary": "Intense daily 1-hour problem breakdown solving past assignment questions and tensor math.",
+      "neededRoles": [
+        "2 Consistent Study Partners (ECE/CSE)"
+      ],
+      "members": [
+        "Meera"
+      ],
+      "slotsOpen": 2
+    }
+  ],
+  "chai": [
+    {
+      "id": "ping-1",
+      "creatorName": "Rohan Mehta",
+      "avatarHue": 44,
+      "location": "Chai Tapri (Central Quad)",
+      "activity": "Grabbing fresh ginger chai + bun maska before 11 AM lecture! ☕",
+      "expiresInMinutes": 9,
+      "acceptedCount": 1
+    },
+    {
+      "id": "ping-2",
+      "creatorName": "Simran Kaur",
+      "avatarHue": 210,
+      "location": "Central Lawn Gazebo",
+      "activity": "15-min open-air break between studio design critiques 🌿",
+      "expiresInMinutes": 14,
+      "acceptedCount": 2
+    }
+  ],
+  "duel_questions": [
+    {
+      "q": "In relational databases, which normal form eliminates transitive dependencies?",
+      "options": [
+        "1NF",
+        "2NF",
+        "3NF",
+        "BCNF"
+      ],
+      "answer": 2,
+      "topic": "Database Engineering",
+      "id": "duel_questions-0"
+    },
+    {
+      "q": "Which protocol operates at the Transport Layer of the OSI stack?",
+      "options": [
+        "IP",
+        "TCP",
+        "HTTP",
+        "Ethernet"
+      ],
+      "answer": 1,
+      "topic": "Computer Networks",
+      "id": "duel_questions-1"
+    },
+    {
+      "q": "In UX architecture, what does the term \"Affordance\" refer to?",
+      "options": [
+        "Software cost",
+        "Visual cue indicating function",
+        "Server latency",
+        "Screen density"
+      ],
+      "answer": 1,
+      "topic": "Design Systems",
+      "id": "duel_questions-2"
+    }
+  ],
+  "quiet_spots": [
+    {
+      "id": "qs-1",
+      "name": "Central Library Floor 2 · Reading Room 3",
+      "location": "Central Library (North Wing)",
+      "decibels": 18,
+      "vibe": "Whisper-only · Power sockets at every desk",
+      "freeDesks": "14 desks open",
+      "x": 42,
+      "y": 14
+    },
+    {
+      "id": "qs-2",
+      "name": "Block 34 · 4th Floor Drafting Nook",
+      "location": "Block 34 (School of Design)",
+      "decibels": 20,
+      "vibe": "Natural north light · Empty after 2 PM",
+      "freeDesks": "8 drafting tables open",
+      "x": 18,
+      "y": 24
+    },
+    {
+      "id": "qs-3",
+      "name": "Secret Garden Stone Benches",
+      "location": "Behind Central Quad Water Fountain",
+      "decibels": 24,
+      "vibe": "Outdoor open breeze · Shaded banyan canopy",
+      "freeDesks": "5 stone benches free",
+      "x": 52,
+      "y": 45
+    },
+    {
+      "id": "qs-4",
+      "name": "Auditorium Quiet Terrace",
+      "location": "Shanti Devi Auditorium (Upper Mezzanine)",
+      "decibels": 21,
+      "vibe": "Serene mountain views · Ideal for reading",
+      "freeDesks": "10 lounge chairs open",
+      "x": 64,
+      "y": 14
+    }
+  ],
+  "quests": [
+    {
+      "id": "quest-1",
+      "title": "Botanical Zen Walk",
+      "subtitle": "Mindful stroll through old campus greenery",
+      "durationMins": 15,
+      "distanceMetres": 480,
+      "noiseLevel": "16–22 dB",
+      "badge": "🌿 Zen Walker",
+      "completed": false,
+      "waypoints": [
+        "Central Lawn Banyan",
+        "Lotus Pond Deck",
+        "Silent Pine Pergola"
+      ]
+    },
+    {
+      "id": "quest-2",
+      "title": "Architecture & Geometry Trail",
+      "subtitle": "Explore symmetry, skylights & cantilevered bridges",
+      "durationMins": 20,
+      "distanceMetres": 620,
+      "noiseLevel": "22–28 dB",
+      "badge": "🏛️ Campus Cartographer",
+      "completed": false,
+      "waypoints": [
+        "Block 34 Glass Atrium",
+        "Aero Spiral Staircase",
+        "Sculpture Courtyard"
+      ]
+    },
+    {
+      "id": "quest-3",
+      "title": "Twilight Rooftop Meditation",
+      "subtitle": "Elevated open sky sanctuary with mountain breeze",
+      "durationMins": 12,
+      "distanceMetres": 340,
+      "noiseLevel": "14–18 dB",
+      "badge": "🌅 Sunset Sage",
+      "completed": true,
+      "waypoints": [
+        "Auditorium Mezzanine",
+        "Rooftop Solar Observatory",
+        "Perimeter Overlook"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc-1",
+      "subject": "Algorithms & Systems",
+      "question": "What is the time complexity of Dijkstra with a Fibonacci Heap?",
+      "answer": "O(E + V log V), significantly faster on dense graphs than standard binary heaps."
+    },
+    {
+      "id": "fc-2",
+      "subject": "UX & Interaction",
+      "question": "What does Hick’s Law state for digital navigation design?",
+      "answer": "The time it takes to make a decision increases logarithmically with the number and complexity of choices."
+    },
+    {
+      "id": "fc-3",
+      "subject": "Computer Networks",
+      "question": "How does TCP congestion avoidance calculate the additive increase window?",
+      "answer": "CWND += 1 MSS per RTT once slow-start threshold (ssthresh) is reached."
+    }
+  ],
+  "rooms": [
+    {
+      "id": "r204",
+      "name": "Room 204 · Architecture & Design Studio",
+      "floor": 2,
+      "type": "studio",
+      "x": 62,
+      "y": 26,
+      "w": 28,
+      "h": 34,
+      "description": "Equipped with light tables, cutting mats, and group critique walls."
+    },
+    {
+      "id": "r201",
+      "name": "Room 201 · Human-Computer Interaction Lab",
+      "floor": 2,
+      "type": "lab",
+      "x": 10,
+      "y": 26,
+      "w": 24,
+      "h": 34,
+      "description": "Mac workstations, eye-tracking rigs, and UI testing pods."
+    },
+    {
+      "id": "r208",
+      "name": "Room 208 · Smart Lecture Theatre",
+      "floor": 2,
+      "type": "lecture",
+      "x": 36,
+      "y": 12,
+      "w": 24,
+      "h": 22,
+      "description": "Acoustic amphitheatre seating for 120 students."
+    },
+    {
+      "id": "r102",
+      "name": "Room 102 · Digital Fabrication & 3D Lab",
+      "floor": 1,
+      "type": "lab",
+      "x": 14,
+      "y": 28,
+      "w": 32,
+      "h": 36,
+      "description": "Laser cutters, Ultimaker 3D printers, and foam shapers."
+    },
+    {
+      "id": "rg01",
+      "name": "Ground Floor · Student Exhibition Gallery",
+      "floor": 0,
+      "type": "studio",
+      "x": 20,
+      "y": 25,
+      "w": 60,
+      "h": 40,
+      "description": "Open atrium hosting term-end design displays and coffee cart."
+    }
+  ],
+  "destinations": [
+    {
+      "id": "ar-1",
+      "name": "Room 204 · Architecture & Design Studio",
+      "building": "Block 34",
+      "floor": "Level 2",
+      "distanceMeters": 45,
+      "instruction": "Turn Left at the Central Atrium Skybridge",
+      "directionDeg": -25
+    },
+    {
+      "id": "ar-2",
+      "name": "Room 201 · Generative AI & HCI Lab",
+      "building": "Block 34",
+      "floor": "Level 2",
+      "distanceMeters": 70,
+      "instruction": "Walk straight past North Stairwell to Door 201",
+      "directionDeg": 10
+    },
+    {
+      "id": "ar-3",
+      "name": "Prof. R. Mehta's Research Cabin (Room 312)",
+      "building": "Block 34",
+      "floor": "Level 3",
+      "distanceMeters": 110,
+      "instruction": "Take Lift B to Floor 3, turn right down faculty wing",
+      "directionDeg": 35
+    },
+    {
+      "id": "ar-4",
+      "name": "Central Library · Quiet Reading Room 3",
+      "building": "Central Library",
+      "floor": "Level 2",
+      "distanceMeters": 160,
+      "instruction": "Exit East Ramp, cross quad pathway toward Library Rotunda",
+      "directionDeg": -5
+    }
+  ],
+  "guardian_routes": [
+    {
+      "id": "gr-1",
+      "from": "Block 34 / Innovation Lab",
+      "to": "Hostel Blocks A & B",
+      "durationMins": 12,
+      "pathName": "Grand Central Spine & Quad Walkway",
+      "lightingStatus": "Well-Lit (LED Pillars)"
+    },
+    {
+      "id": "gr-2",
+      "from": "Central Library",
+      "to": "Hostel C (PG Block)",
+      "durationMins": 15,
+      "pathName": "Water Fountain Boulevard & East Avenue",
+      "lightingStatus": "CCTV Monitored"
+    },
+    {
+      "id": "gr-3",
+      "from": "Night Canteen",
+      "to": "Hostel A Cluster",
+      "durationMins": 8,
+      "pathName": "South Perimeter Illuminated Path",
+      "lightingStatus": "Well-Lit (LED Pillars)"
+    }
+  ],
+  "leaderboard": [
+    {
+      "rank": 1,
+      "name": "Hostel A (Champions)",
+      "badge": "🏆 Reigning #1",
+      "points": 14850,
+      "avgSteps": "8,920 steps/day",
+      "gymCheckins": 420,
+      "championshipWins": 4,
+      "id": "leaderboard-0"
+    },
+    {
+      "rank": 2,
+      "name": "Hostel B (Warriors)",
+      "badge": "🥈 Runner-Up",
+      "points": 13420,
+      "avgSteps": "8,150 steps/day",
+      "gymCheckins": 380,
+      "championshipWins": 3,
+      "id": "leaderboard-1"
+    },
+    {
+      "rank": 3,
+      "name": "Hostel C & PG Block",
+      "badge": "🥉 3rd Place",
+      "points": 11980,
+      "avgSteps": "7,840 steps/day",
+      "gymCheckins": 290,
+      "championshipWins": 2,
+      "id": "leaderboard-2"
+    },
+    {
+      "rank": 4,
+      "name": "Day Scholars Collective",
+      "badge": "⭐ Active Contenders",
+      "points": 10450,
+      "avgSteps": "9,100 steps/day",
+      "gymCheckins": 310,
+      "championshipWins": 1,
+      "id": "leaderboard-3"
+    }
+  ]
+}
