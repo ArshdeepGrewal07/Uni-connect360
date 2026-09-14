@@ -8,8 +8,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "site-creator-d1",
-      "database_id": "00000000-0000-4000-8000-000000000000",
+      "database_name": "uni-connect-db",
+      "database_id": "c443f40c-edf5-414d-961a-20c25bb486d2",
       "migrations_dir": "drizzle"
     }
   ],
